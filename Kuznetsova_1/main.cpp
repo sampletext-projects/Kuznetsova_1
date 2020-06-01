@@ -1,11 +1,11 @@
-//можно включать любую из этих
+//РјРѕР¶РЅРѕ РІРєР»СЋС‡Р°С‚СЊ Р»СЋР±СѓСЋ РёР· СЌС‚РёС…
 #include <stdio.h>
 #include <cstdio>
 //----
 
 #include <conio.h>
 
-//можно включать любую из этих
+//РјРѕР¶РЅРѕ РІРєР»СЋС‡Р°С‚СЊ Р»СЋР±СѓСЋ РёР· СЌС‚РёС…
 #include <stdlib.h>
 #include <cstdlib>
 //----
@@ -13,10 +13,10 @@
 #include <cstring>
 #include <tchar.h>
 
-#include <crtdbg.h> // определение утечки памяти
+#include <crtdbg.h> // РѕРїСЂРµРґРµР»РµРЅРёРµ СѓС‚РµС‡РєРё РїР°РјСЏС‚Рё
 
-//Эта штука нужна только для новых версий студии
-//getch обычный отсутствует, поэтому настраиваем _getch на притворство обычным getch
+//Р­С‚Р° С€С‚СѓРєР° РЅСѓР¶РЅР° С‚РѕР»СЊРєРѕ РґР»СЏ РЅРѕРІС‹С… РІРµСЂСЃРёР№ СЃС‚СѓРґРёРё
+//getch РѕР±С‹С‡РЅС‹Р№ РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚, РїРѕСЌС‚РѕРјСѓ РЅР°СЃС‚СЂР°РёРІР°РµРј _getch РЅР° РїСЂРёС‚РІРѕСЂСЃС‚РІРѕ РѕР±С‹С‡РЅС‹Рј getch
 #ifdef _MSC_VER
 #define getch() _getch()
 #endif
@@ -292,7 +292,7 @@ int AddMachines(void** ppMachines)
 	}
 }
 
-//C - consumption - потребление
+//C - consumption - РїРѕС‚СЂРµР±Р»РµРЅРёРµ
 double GetMachinesDailyC(void** ppMachines, int count)
 {
 	double dailyC = 0;
@@ -328,7 +328,7 @@ double GetMachinesDailyC(void** ppMachines, int count)
 	return dailyC;
 }
 
-//C - consumption - потребление
+//C - consumption - РїРѕС‚СЂРµР±Р»РµРЅРёРµ
 double GetMachinesTotalC(void** ppMachines, int count)
 {
 	double total = 0;
